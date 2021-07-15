@@ -1,4 +1,5 @@
-.project {
+.project 
+{
     width: 100%;
     margin-bottom: $grid-gutter*1.2;
     display: grid;
@@ -9,33 +10,41 @@
         "image synopsis"
         "tags synopsis"
         "btn btn";
-    &__image {
+    &__image 
+    {
         grid-area: image;
         @include img-ratio;
     }
-    &__synopsis {
+    &__synopsis 
+    {
         grid-area: synopsis;
         padding-left: $grid-gutter;
-        & h1 {
+        & h1 
+        {
             color: $colour-white;
             @include heading-shadow;
         }
-        & p {
+        & p 
+        {
             line-height: 2rem*1.25;
         }
     }
-    &__tags {
+    &__tags 
+    {
         grid-area: tags;
-        & p {
+        & p 
+        {
             color: $colour-white;
-            & strong {
+            & strong 
+            {
                 color: $colour-primary;
                 font-weight: 900;
                 font-style: italic;
             }
         }
     }
-    &__btn {
+    &__btn 
+    {
         @include btn;
         grid-area: btn;
     }

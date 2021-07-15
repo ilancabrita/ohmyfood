@@ -1,7 +1,9 @@
-.form {
+.form 
+{
     width: 100%;
     padding-bottom: $grid-gutter;
-    &__heading {
+    &__heading 
+    {
         width: 100%;
         color: $colour-white;
         @include heading-shadow;
@@ -9,15 +11,18 @@
         line-height: 5rem;
         padding: $grid-gutter;
     }
-    &__field {
-        & label {
+    &__field 
+    {
+        & label 
+        {
             color: $colour-accent;
             display: block;
             font-size: 2rem;
             line-height: 2rem;
             padding-top: $grid-gutter;
         }
-        & input {
+        & input 
+        {
             width: 100%;
             background: $colour-secondary;
             @include border;
@@ -31,7 +36,8 @@
             color: $colour-primary;
 
         }
-        & textarea {
+        & textarea 
+        {
             width: 100%;
             color: $colour-primary;
             background: $colour-secondary;

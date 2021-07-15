@@ -1,23 +1,29 @@
-.nav {
+.nav 
+{
     padding-right: $layout-margin;
     flex: 2 1 auto;
     text-align: right;
-    &__link {
+    &__link 
+    {
         display: inline;
         font-size: 3rem;
         padding-left: 1.5rem;
-        & a{
+        & a
+        {
         text-decoration: none;
         color: $colour-accent;
         }
-        &--active {
+        &--active 
+        {
             color: $colour-secondary;
-            &:hover{
+            &:hover
+            {
                 cursor:default;
                 color: $colour-secondary;
             }
         }
-        & a:hover{
+        & a:hover
+        {
             color: $colour-white;
         }
     }
