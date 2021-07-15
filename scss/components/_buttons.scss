@@ -7,7 +7,6 @@
     color:$colour-white;
     background: $colour-primary;
     background: linear-gradient(170deg, $colour-secondary 0%, $colour-primary 100%);
-    @include box-shadow;
     cursor: pointer;
     transition: 1s;
 
