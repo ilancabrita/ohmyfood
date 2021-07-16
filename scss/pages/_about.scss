@@ -28,7 +28,8 @@
         width: 80%;
         border-radius: 1000rem;
         border: 1.5rem solid $colour-primary;
-        & img {
+        & img 
+        {
             display: block;
             width: 100%;
         }
