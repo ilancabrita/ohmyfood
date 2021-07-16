@@ -3,5 +3,27 @@
     margin: $layout-margin;
     padding: $grid-gutter $grid-gutter 0 $grid-gutter;
     @include border($colour-accent);
+
+    &__restaurants
+    {
+        border: 5px solid $colour-gray;
+        border-radius: 25px 25px 0px 0px;
+        margin: $layout-margin;
+    }
+
+    &__search
+    {
+        margin: $layout-margin;
+        background-color: $colour-gray-hard;
+        width: 100%;
+    }
+
+    &__header3
+    {
+        margin: $layout-margin;
+        background-color: $colour-gray;
+        width: 100%;
+        justify-content: start;
+    }
 }
 
