@@ -1,0 +1,17 @@
+.fa-check-circle
+{
+    background-color: $colour-tertiarie;
+    &:hover
+    {
+        @keyframes spin 
+        {
+            0% {transform: rotate(0deg);}
+            100% {transform: rotate(359deg);}
+        }
+        @keyframes slider 
+        {
+            0% {right: 0%;}
+            100% {right: 100%;}      
+        }
+    }
+}
