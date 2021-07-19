@@ -5,7 +5,7 @@
         justify-items: center;
         width: 15rem;
         height: 3rem;
-        
+        margin: 0;
     }
 
     &__footer
@@ -17,7 +17,17 @@
 }
 .image
 {
-    width: 100%;
-    height: 15rem;
-    object-fit: cover;
+    &__home
+    {
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+    }
+
+    &__restaurant
+    {
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;  
+    }
 }

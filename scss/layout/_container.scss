@@ -16,14 +16,16 @@
         margin: $layout-margin;
         background-color: $colour-gray-hard;
         width: 100%;
+        margin: 0;
     }
 
     &__header3
     {
         margin: $layout-margin;
-        background-color: $colour-gray;
+        background-color: $colour-gray-smart;
         width: 100%;
         justify-content: start;
+        margin: 0;
     }
 }
 
