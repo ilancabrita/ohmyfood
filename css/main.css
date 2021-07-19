@@ -1,4 +1,9 @@
 @import url("font-awesome/scss/font-awesome.scss");
+footer {
+  background-color: #353535;
+  color: #fff;
+}
+
 .logo__header {
   justify-items: center;
   width: 15rem;
@@ -7,7 +12,7 @@
 }
 .logo__footer {
   width: 15rem;
-  height: 10rem;
+  height: 3rem;
 }
 
 .image__home {
@@ -95,7 +100,8 @@ button {
   background: linear-gradient(170deg, #FF79DA 0%, #9356DC 100%);
   cursor: pointer;
   transition: 1s;
-  width: 50%;
+  width: 60%;
+  justify-content: center;
 }
 .btn:hover {
   transform: translateY(-0.1rem);
@@ -165,6 +171,12 @@ button {
   width: 100%;
   justify-content: start;
   margin: 0;
+}
+.container__function {
+  border: 0.5rem solid;
+  border-radius: 15px;
+  width: 80%;
+  margin: 1rem;
 }
 
 .form {

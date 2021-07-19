@@ -27,5 +27,14 @@
         justify-content: start;
         margin: 0;
     }
+
+    &__function
+    {
+        border: 0.5rem solid;
+        border-radius: 15px;
+        width: 80%;
+        margin: 1rem;
+    }
+
 }
 
