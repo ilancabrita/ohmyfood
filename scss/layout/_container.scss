@@ -11,28 +11,6 @@
         margin: $layout-margin;
     }
 
-    &__search
-    {
-        margin: $layout-margin;
-        background-color: $colour-gray-hard;
-        width: 100%;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    &__header3
-    {
-        margin: $layout-margin;
-        background-color: $colour-gray-smart;
-        width: 100%;
-        justify-content: start;
-        margin: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 
     &__functionall
     {
@@ -51,7 +29,7 @@
     &__plate
     {
         border: 0.5rem solid;
-        border-radius: 15px;
+        border-radius: 1.5px;
         border-color: $colour-gray-smart;
         width: 90%;
         margin: 1rem;

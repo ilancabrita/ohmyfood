@@ -17,4 +17,24 @@
         width: 15rem;
         height: 3rem;
     }
+
+    &__search
+    {
+        margin: $layout-margin;
+        background-color: $colour-gray-hard;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__header3
+    {
+        background-color: $colour-gray-smart;
+        justify-content: start;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }

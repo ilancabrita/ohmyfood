@@ -1,4 +1,6 @@
-@import url("font-awesome/scss/font-awesome.scss");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 footer {
   background-color: #353535;
   color: #fff;
@@ -45,8 +47,6 @@ body {
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 2rem;
-  font-weight: 100;
   line-height: 1.7;
 }
 
@@ -55,19 +55,6 @@ h1 {
   font-weight: 900;
   font-size: 5rem;
   font-style: italic;
-}
-
-textarea {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-size: 2rem;
-}
-
-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-  font-size: 2.75rem;
 }
 
 .fa-check-circle {
@@ -100,8 +87,10 @@ button {
   background: linear-gradient(170deg, #FF79DA 0%, #9356DC 100%);
   cursor: pointer;
   transition: 1s;
+  text-align: center;
+}
+.btn--w60 {
   width: 60%;
-  justify-content: center;
 }
 .btn:hover {
   transform: translateY(-0.1rem);
@@ -125,6 +114,21 @@ button {
   text-shadow: 0.55rem 0.55rem #fff;
   width: 15rem;
   height: 3rem;
+}
+.header__search {
+  margin: 6rem;
+  background-color: #eaeaea;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.header__header3 {
+  background-color: #f6f6f6;
+  justify-content: start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav {
@@ -162,25 +166,6 @@ button {
   border-radius: 25px 25px 0px 0px;
   margin: 6rem;
 }
-.container__search {
-  margin: 6rem;
-  background-color: #eaeaea;
-  width: 100%;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.container__header3 {
-  margin: 6rem;
-  background-color: #f6f6f6;
-  width: 100%;
-  justify-content: start;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 .container__functionall {
   margin-left: 3rem;
 }
@@ -193,7 +178,7 @@ button {
 }
 .container__plate {
   border: 0.5rem solid;
-  border-radius: 15px;
+  border-radius: 1.5px;
   border-color: #f6f6f6;
   width: 90%;
   margin: 1rem;
@@ -417,6 +402,11 @@ button {
 .project__btn--full-width {
   width: 100%;
   margin: 0 auto;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */

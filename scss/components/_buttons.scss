@@ -9,9 +9,12 @@
     background: linear-gradient(170deg, $colour-secondary 0%, $colour-primary 100%);
     cursor: pointer;
     transition: 1s;
-    width: 60%;
-    justify-content: center;
+    text-align: center;
 
+    &--w60
+    {
+        width: 60%;
+    }
     &:hover
     {
         transform: translateY(-.1rem);
