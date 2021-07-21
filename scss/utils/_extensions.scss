@@ -3,3 +3,16 @@ footer
     background-color: $colour-gray-very-hard;
     color: $colour-white;
 }
+
+.number
+{
+    background-color: $colour-primary;
+    color: $colour-white;
+    padding: 2.5px 8px;
+    border: 0.1rem solid $colour-primary;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    transform: translate(0, -50%);
+}

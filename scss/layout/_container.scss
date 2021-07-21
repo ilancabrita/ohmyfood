@@ -19,11 +19,20 @@
 
     &__function
     {
-        border: 0.5rem solid;
+        border: 0.2rem solid;
         border-radius: 15px;
         width: 80%;
         margin: 1rem;
+        padding: 1.5rem;
         margin-left: 0;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+
+        &:hover
+        {
+            background-color: $colour-secondary;
+        }
     }
 
     &__plate

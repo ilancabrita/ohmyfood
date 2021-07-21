@@ -6,6 +6,18 @@ footer {
   color: #fff;
 }
 
+.number {
+  background-color: #9356DC;
+  color: #fff;
+  padding: 2.5px 8px;
+  border: 0.1rem solid #9356DC;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  transform: translate(0, -50%);
+}
+
 .logo__header {
   justify-items: center;
   width: 15rem;
@@ -55,6 +67,10 @@ h1 {
   font-weight: 900;
   font-size: 5rem;
   font-style: italic;
+}
+
+.title-to-logo {
+  font-family: shrikland;
 }
 
 .fa-check-circle {
@@ -170,11 +186,18 @@ h1 {
   margin-left: 3rem;
 }
 .container__function {
-  border: 0.5rem solid;
+  border: 0.2rem solid;
   border-radius: 15px;
   width: 80%;
   margin: 1rem;
+  padding: 1.5rem;
   margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.container__function:hover {
+  background-color: #FF79DA;
 }
 .container__plate {
   border: 0.5rem solid;
