@@ -16,6 +16,8 @@
         @include heading-shadow($colour-white);
         width: 15rem;
         height: 3rem;
+        display: flex;
+        justify-content: center;
     }
 
     &__search
