@@ -1,9 +1,3 @@
-footer
-{
-    background-color: $colour-gray-very-hard;
-    color: $colour-white;
-}
-
 .number
 {
     background-color: $colour-primary;
@@ -21,9 +15,10 @@ footer
 {
     padding: 7px;
     margin-right: 5px;
+    font-size: 10px;
 }
 
-.fa-map-marker-alt
+.textreto
 {
-    padding: 1rem;
+    padding: 10px;
 }

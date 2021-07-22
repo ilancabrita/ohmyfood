@@ -8,6 +8,7 @@
     {
         border: 5px solid $colour-gray-smart;
         background-color: $colour-gray-smart;
+        margin: 0;
     }
 
     &__fiche
@@ -16,6 +17,7 @@
         border: 2px solid;
         border-radius: 25px;
         margin: 10px;
+        position: relative;
     }
 
     &__functionall
