@@ -14,10 +14,13 @@
     &__fiche
     {
         width: 95%;
-        border: 2px solid;
+        border: 2px;
         border-radius: 25px;
-        margin: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         position: relative;
+        box-shadow: 0 1rem 1rem -0.5rem $colour-gray;
     }
 
     &__functionall

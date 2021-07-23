@@ -21,6 +21,14 @@
 
 .textreto {
   padding: 10px;
+  font-size: 15px;
+}
+.textreto__h4 {
+  font-size: 17px;
+}
+.textreto__h5 {
+  font-size: 17px;
+  font-weight: 300;
 }
 
 .logo__header {
@@ -136,11 +144,12 @@ h1 {
   right: 15px;
 }
 
-.fa-heart__home {
+.fa-heart {
+  font-size: 25px;
   color: black;
   position: absolute;
-  right: 15px;
-  top: 80%;
+  right: 25px;
+  top: 75%;
 }
 
 .header {
@@ -233,10 +242,13 @@ h1 {
 }
 .container__fiche {
   width: 95%;
-  border: 2px solid;
+  border: 2px;
   border-radius: 25px;
-  margin: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   position: relative;
+  box-shadow: 0 1rem 1rem -0.5rem gray;
 }
 .container__functionall {
   margin-left: 3rem;
@@ -312,11 +324,25 @@ h1 {
 footer {
   background-color: #353535;
   color: #fff;
+  padding-left: 25px;
+  padding-bottom: 25px;
 }
 
 .fa-utensils, .fa-hands-helping {
-  font-size: 5px;
+  font-size: 1rem;
   padding: 5px;
+  padding-left: 0px;
+}
+
+.title-to-logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+.footer-h5 {
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .quote {
