@@ -8,11 +8,23 @@
     right: 15px;
 }
 
-.fa-heart
+.fa-heart-home
 {
     font-size: 25px;
     color: $colour-black;
     position: absolute;
     right: 25px;
     top: 75%;
+}
+
+.price
+{
+    position: absolute;
+    top: 65%;
+    right: 10px;
+}
+
+.fa-heart-home, .fa-heart
+{
+    
 }
