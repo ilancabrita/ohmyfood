@@ -2,7 +2,7 @@
 {
     width: auto;
     color: $colour-green;
-    background-color: $cloour-green-smart;
+    background-color: $colour-green-smart;
     position: absolute;
     top: 10px;
     right: 15px;
@@ -19,6 +19,7 @@
 
 .price
 {
+    font-size: 15px;
     position: absolute;
     top: 65%;
     right: 10px;
@@ -26,5 +27,21 @@
 
 .fa-heart-home, .fa-heart
 {
-    
+    font-size: 2rem;
+    align-self: center;
+    margin-right: 2rem;
+
+    //Non stable
+    cursor: pointer;
+    background-color: $colour-black;
+    padding: 0.1rem;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 0.2rem transparent;
+
+    &:hover
+    {
+        background: -webkit-linear-gradient(40deg, $colour-primary 0%, $colour-secondary 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
