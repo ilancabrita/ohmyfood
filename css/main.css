@@ -144,10 +144,20 @@ h4 {
   top: 75%;
 }
 
+.fa-heart {
+  font-weight: 300;
+  margin: 0px;
+  margin-left: 40%;
+}
+
 .price {
   display: flex;
   flex-direction: row;
-  font-size: 15px;
+  font-size: 13px;
+  font-weight: 200;
+  position: absolute;
+  right: 10px;
+  top: 50%;
 }
 
 .fa-heart-home, .fa-heart {
@@ -169,6 +179,10 @@ h4 {
 .fa-check-circle {
   background-color: #99E2D0;
   color: #fff;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }
 @keyframes spin {
   0% {
@@ -584,6 +598,7 @@ main {
 }
 
 .carte {
+  font-weight: 600;
   padding-left: 15px;
 }
 

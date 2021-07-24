@@ -17,11 +17,22 @@
     top: 75%;
 }
 
+.fa-heart
+{
+    font-weight: 300;
+    margin: 0px;
+    margin-left: 40%;
+}
+
 .price
 {
     display: flex;
     flex-direction: row;
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 200;
+    position: absolute;
+    right: 10px;
+    top: 50%;
 }
 
 .fa-heart-home, .fa-heart
@@ -49,6 +60,10 @@
 {
     background-color: $colour-tertiarie;
     color: $colour-white;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
     
     &:hover
     {
