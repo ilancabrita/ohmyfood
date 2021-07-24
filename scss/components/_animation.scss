@@ -19,10 +19,9 @@
 
 .price
 {
+    display: flex;
+    flex-direction: row;
     font-size: 15px;
-    position: absolute;
-    top: 65%;
-    right: 10px;
 }
 
 .fa-heart-home, .fa-heart
@@ -43,5 +42,25 @@
         background: -webkit-linear-gradient(40deg, $colour-primary 0%, $colour-secondary 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+}
+
+.fa-check-circle
+{
+    background-color: $colour-tertiarie;
+    color: $colour-white;
+    
+    &:hover
+    {
+        @keyframes spin 
+        {
+            0% {transform: rotate(0deg);}
+            100% {transform: rotate(359deg);}
+        }
+        @keyframes slider 
+        {
+            0% {right: 0%;}
+            100% {right: 100%;}      
+        }
     }
 }

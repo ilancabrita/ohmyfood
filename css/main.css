@@ -106,26 +106,6 @@ h4 {
   font-size: 15px;
 }
 
-.fa-check-circle {
-  background-color: #99E2D0;
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
-}
-@keyframes slider {
-  0% {
-    right: 0%;
-  }
-  100% {
-    right: 100%;
-  }
-}
-
 .btn {
   margin: 2rem 0;
   border: none;
@@ -165,10 +145,9 @@ h4 {
 }
 
 .price {
+  display: flex;
+  flex-direction: row;
   font-size: 15px;
-  position: absolute;
-  top: 65%;
-  right: 10px;
 }
 
 .fa-heart-home, .fa-heart {
@@ -185,6 +164,27 @@ h4 {
   background: -webkit-linear-gradient(40deg, #9356DC 0%, #FF79DA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.fa-check-circle {
+  background-color: #99E2D0;
+  color: #fff;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+@keyframes slider {
+  0% {
+    right: 0%;
+  }
+  100% {
+    right: 100%;
+  }
 }
 
 .header {
@@ -237,6 +237,11 @@ h4 {
 .fa-map-marker-alt {
   padding: 1rem;
   font-size: 15px;
+}
+
+.fa-arrow-left {
+  font-size: 15px;
+  display: flex;
 }
 
 .nav {
@@ -306,7 +311,7 @@ h4 {
 }
 .container__plate {
   border: 0.5rem solid;
-  border-radius: 1.5px;
+  border-radius: 25px;
   border-color: #f6f6f6;
   width: 90%;
   margin: 15px;
@@ -569,6 +574,29 @@ footer {
 .partie {
   font-weight: 400;
   font-size: 15px;
+  border-bottom: 5px solid 20% #99E2D0;
+  padding-left: 15px;
+}
+
+main {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.carte {
+  padding-left: 15px;
+}
+
+h3 {
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.description {
+  padding-left: 15px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=main.css.map */
