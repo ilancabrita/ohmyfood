@@ -55,27 +55,3 @@
         -webkit-text-fill-color: transparent;
     }
 }
-
-.fa-check-circle
-{
-    background-color: $colour-tertiarie;
-    color: $colour-white;
-    height: 100%;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    
-    &:hover
-    {
-        @keyframes spin 
-        {
-            0% {transform: rotate(0deg);}
-            100% {transform: rotate(359deg);}
-        }
-        @keyframes slider 
-        {
-            0% {right: 0%;}
-            100% {right: 100%;}      
-        }
-    }
-}

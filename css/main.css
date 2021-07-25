@@ -176,31 +176,6 @@ h4 {
   -webkit-text-fill-color: transparent;
 }
 
-.fa-check-circle {
-  background-color: #99E2D0;
-  color: #fff;
-  height: 100%;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
-}
-@keyframes slider {
-  0% {
-    right: 0%;
-  }
-  100% {
-    right: 100%;
-  }
-}
-
 .header {
   background: #9356DC;
   height: 10rem;
@@ -209,6 +184,7 @@ h4 {
   flex-wrap: wrap;
   width: 100%;
   box-shadow: 0 1rem 2rem -0.5rem gray;
+  position: relative;
 }
 .header__logo {
   font-size: 7rem;
@@ -251,11 +227,6 @@ h4 {
 .fa-map-marker-alt {
   padding: 1rem;
   font-size: 15px;
-}
-
-.fa-arrow-left {
-  font-size: 15px;
-  display: flex;
 }
 
 .nav {
@@ -612,6 +583,38 @@ h3 {
   font-size: 13px;
   display: flex;
   flex-direction: row;
+}
+
+.fa-arrow-left {
+  font-size: 15px;
+  position: absolute;
+  left: 15%;
+  top: 50%;
+}
+
+.fa-check-circle {
+  background-color: #99E2D0;
+  color: #fff;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+@keyframes slider {
+  0% {
+    right: 0%;
+  }
+  100% {
+    right: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
