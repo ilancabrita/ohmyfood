@@ -617,5 +617,8 @@ header {
     right: 100%;
   }
 }
+.fa-check-circle::before {
+  content: none;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -30,4 +30,9 @@ header
             100% {right: 100%;}      
         }
     }
+
+    &::before
+    {
+        content: none;
+    }
 }
