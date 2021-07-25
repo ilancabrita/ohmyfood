@@ -295,7 +295,7 @@ h4 {
   background-color: #f5ecff;
 }
 .container__plate {
-  border: 0.5rem solid;
+  border: 0.2rem solid;
   border-radius: 25px;
   border-color: #f6f6f6;
   width: 90%;
@@ -585,20 +585,21 @@ h3 {
   flex-direction: row;
 }
 
+header {
+  position: relative;
+}
+
 .fa-arrow-left {
   font-size: 15px;
   position: absolute;
-  left: 15%;
-  top: 50%;
+  left: 10%;
+  top: 5%;
 }
 
 .fa-check-circle {
   background-color: #99E2D0;
   color: #fff;
   height: 100%;
-  position: absolute;
-  right: 0px;
-  top: 0px;
 }
 @keyframes spin {
   0% {
