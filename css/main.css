@@ -31,6 +31,10 @@
   font-weight: 300;
 }
 
+a {
+  text-decoration: none;
+}
+
 .logo__header {
   justify-items: center;
   width: 15rem;
@@ -575,7 +579,7 @@ main {
 
 h3 {
   padding-left: 15px;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .description {
@@ -590,6 +594,7 @@ header {
 }
 
 .fa-arrow-left {
+  color: black;
   font-size: 15px;
   position: absolute;
   left: 10%;
@@ -598,7 +603,7 @@ header {
 
 .fa-check-circle {
   background-color: #99E2D0;
-  color: #fff;
+  color: black;
   height: 100%;
 }
 @keyframes spin {
@@ -616,9 +621,6 @@ header {
   100% {
     right: 100%;
   }
-}
-.fa-check-circle::before {
-  content: none;
 }
 
 /*# sourceMappingURL=main.css.map */

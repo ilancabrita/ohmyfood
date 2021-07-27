@@ -5,6 +5,7 @@ header
 
 .fa-arrow-left
 {
+    color: $colour-black;
     font-size: 15px;
     position: absolute;
     left: 10%;
@@ -14,7 +15,7 @@ header
 .fa-check-circle
 {
     background-color: $colour-tertiarie;
-    color: $colour-white;
+    color: $colour-black;
     height: 100%;
     
     &:hover
@@ -24,15 +25,11 @@ header
             0% {transform: rotate(0deg);}
             100% {transform: rotate(359deg);}
         }
+        
         @keyframes slider 
         {
             0% {right: 0%;}
             100% {right: 100%;}      
         }
-    }
-
-    &::before
-    {
-        content: none;
     }
 }
