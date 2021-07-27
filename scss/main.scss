@@ -10,13 +10,13 @@
 @import "./utils/mixins";
 @import "./utils/extensions";
 @import "./utils/image";
+@import "./utils/animation";
 
 @import "./base/base";
 @import "./base/typography";
 @import "./base/icones";
 
 @import "./components/buttons";
-@import "./components/animation";
 
 @import "./layout/header";
 @import "./layout/nav";
@@ -28,4 +28,3 @@
 @import "./pages/about";
 @import "./pages/project";
 @import "./pages/menu";
-@import "./pages/animation2";
