@@ -185,7 +185,7 @@ h3 {
 
 h4 {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 2rem;
 }
 
@@ -415,7 +415,7 @@ footer {
 .title-to-logo {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .footer-h5 {
@@ -628,14 +628,20 @@ h2 {
 
 h3 {
   padding-left: 15px;
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .description {
   padding-left: 15px;
-  font-size: 13px;
+  font-size: 15px;
   display: flex;
   flex-direction: row;
+}
+
+section {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 /*# sourceMappingURL=main.css.map */
