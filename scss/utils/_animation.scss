@@ -21,7 +21,7 @@
 {
     font-weight: 300;
     margin: 0px;
-    margin-left: 40%;
+    margin-left: 50%;
 }
 
 .price
@@ -30,9 +30,6 @@
     flex-direction: row;
     font-size: 13px;
     font-weight: 200;
-    position: absolute;
-    right: 10px;
-    top: 50%;
 }
 
 .fa-heart-home, .fa-heart
@@ -73,14 +70,18 @@ header
 .fa-check-circle
 {
     background-color: $colour-tertiarie;
-    color: $colour-black;
+    color: $colour-white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     height: 100%;
+    overflow: hidden;
+    width: 20%;
+    text-align: center;
     
     &:hover
     {
         animation: spin 1s linear both;
         animation: slider 1s linear both;
-
     }
 }
 

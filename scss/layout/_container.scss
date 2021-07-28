@@ -57,13 +57,14 @@
         width: 90%;
         margin: 15px;
         box-shadow: 0 1rem 2rem -0.5rem $colour-gray;
-        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
 
-        &--row
-        [
-            display: flex;
-            flex-direction: row;
-        ]
+    &__row
+    {
+        display: flex;
+        flex-direction: row;
     }
 }
 
