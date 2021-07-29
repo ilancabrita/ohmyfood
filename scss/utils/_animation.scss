@@ -3,6 +3,7 @@
     width: auto;
     color: $colour-green;
     background-color: $colour-green-smart;
+    padding: 3px;
     position: absolute;
     top: 10px;
     right: 15px;
@@ -29,7 +30,8 @@
     display: flex;
     flex-direction: row;
     font-size: 13px;
-    font-weight: 200;
+    font-weight: 300;
+    margin-top: auto;
 }
 
 .fa-heart-home, .fa-heart
@@ -75,8 +77,11 @@ header
     border-bottom-right-radius: 25px;
     height: 100%;
     overflow: hidden;
-    width: 20%;
-    text-align: center;
+    width: 50%;
+    size: 4px;
+    padding: 5px;
+    justify-content: center;
+    overflow: hidden;
     
     &:hover
     {

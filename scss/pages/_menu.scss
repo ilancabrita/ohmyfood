@@ -49,3 +49,17 @@ section
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    overflow: hidden;
+}
+
+.column
+{
+    width: 80%;
+    overflow: hidden;
+}
