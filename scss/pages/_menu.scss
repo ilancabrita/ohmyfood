@@ -11,12 +11,6 @@
     padding-left: 20px;
 }
 
-main
-{
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-}
-
 .carte
 {
     font-weight: 600;
@@ -39,12 +33,10 @@ h3
 .description
 {
     padding-left: 15px;
-    font-size: 15px;
-    display: flex;
-    flex-direction: row;
+    font-size: 17px;
 }
 
-section
+.restaurant
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;

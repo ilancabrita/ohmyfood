@@ -25,15 +25,6 @@
     margin-left: 50%;
 }
 
-.price
-{
-    display: flex;
-    flex-direction: row;
-    font-size: 13px;
-    font-weight: 300;
-    margin-top: auto;
-}
-
 .fa-heart-home, .fa-heart
 {
     font-size: 2rem;
@@ -69,6 +60,18 @@ header
     top: 5%;
 }
 
+.price
+{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: auto;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
 .fa-check-circle
 {
     background-color: $colour-tertiarie;
@@ -76,7 +79,6 @@ header
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     height: 100%;
-    overflow: hidden;
     width: 50%;
     size: 4px;
     padding: 5px;

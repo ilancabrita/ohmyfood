@@ -55,7 +55,6 @@
         border: 0.2rem solid;
         border-radius: 25px;
         border-color: $colour-gray-smart;
-        width: 90%;
         margin: 15px;
         box-shadow: 0 1rem 2rem -0.5rem $colour-gray;
         display: flex;
@@ -72,4 +71,5 @@
 .title
 {
     padding: 15px;
+    padding-left: 20px;
 }
