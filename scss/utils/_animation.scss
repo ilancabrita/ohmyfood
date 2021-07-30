@@ -70,11 +70,6 @@ header
     margin-top: auto;
     justify-content: flex-end;
     padding-right: 5px;
-
-    &:hover
-    {
-        animation: moveright 1s linear both;
-    }
 }
 
 .fa-check-circle
@@ -93,8 +88,8 @@ header
     
     &:hover
     {
-        animation: spin 3s linear both;
         animation: moveright 3s linear both;
+        animation: spin 3s linear both;
     }
 }
 
@@ -102,11 +97,6 @@ header
 {
     width: 50%;
     overflow: hidden;
-
-    &:hover
-    {
-        animation: slide 1s linear both;
-    }
 }
 
 @keyframes spin 

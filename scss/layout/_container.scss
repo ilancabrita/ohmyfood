@@ -61,7 +61,8 @@
 
         &:hover
         {
-            -webkit-animation: price, fa-check-circle;
+            + .slide
+            animation: slide 1s linear both;
         }
     }
 
