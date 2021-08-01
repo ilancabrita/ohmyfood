@@ -77,30 +77,21 @@ header
     color: $colour-white;
     height: 100%;
     width: 100%;
-    justify-content: center;
     overflow: hidden;
     font-size: 25px;
     padding-top: 14px;
     padding-left: 11px;
 
-    &:hover
-    {
-        animation: spin 3s linear both;
-    }
 }
 
 .slide
 {
-    width: 20%;
+    width: 0%;
     overflow: hidden;
     background-color: $colour-tertiarie;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 
-    &:hover
-    {
-        animation: slide 3s linear both;
-    }
 }
 
 @keyframes spin 
@@ -117,6 +108,6 @@ header
 
 @keyframes slide 
 {
-    from { transform: width 20%;}
-    to { transform: width 40%;}
+    from { transform: width 0%;}
+    to { transform: width 20%;}
 }
