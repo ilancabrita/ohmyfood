@@ -52,7 +52,6 @@
 
     &__plate
     {
-        border: 0.2rem solid;
         border-radius: 25px;
         border-color: $colour-gray-smart;
         margin: 15px;
@@ -65,11 +64,11 @@
         }
         &:hover + .fa-check-circle
         {
-            animation: spin 3s linear both, slide 1s linear both;
+            animation: spin 3s linear both;
         }
         &:hover + .price
         {
-            animation: slide 1s linear both;
+            
         }
     }
 

@@ -62,40 +62,45 @@ header
 
 .price
 {
-    width: 50%;
+    width: 20%;
     display: flex;
     flex-direction: row;
     font-size: 13px;
     font-weight: 300;
     margin-top: auto;
     justify-content: flex-end;
-    padding-right: 5px;
+    padding-right: 20px;
 }
 
 .fa-check-circle
 {
-    background-color: $colour-tertiarie;
     color: $colour-white;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
     height: 100%;
     width: 100%;
     justify-content: center;
     overflow: hidden;
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 14px;
     padding-left: 11px;
-    
+
     &:hover
     {
-        animation: spin 3s linear both, slide 1s linear both;
+        animation: spin 3s linear both;
     }
 }
 
 .slide
 {
-    width: 50%;
+    width: 20%;
     overflow: hidden;
+    background-color: $colour-tertiarie;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    &:hover
+    {
+        animation: slide 3s linear both;
+    }
 }
 
 @keyframes spin 
@@ -108,4 +113,10 @@ header
 {
     from { transform: translateX(100%); }
     to   { transform: translateX(0);}
+}
+
+@keyframes slide 
+{
+    from { transform: width 20%;}
+    to { transform: width 40%;}
 }
