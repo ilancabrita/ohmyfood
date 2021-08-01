@@ -65,11 +65,11 @@
         }
         &:hover + .fa-check-circle
         {
-            animation: spin 3s linear both;
+            animation: spin 3s linear both, slide 1s linear both;
         }
         &:hover + .price
         {
-            
+            animation: slide 1s linear both;
         }
     }
 

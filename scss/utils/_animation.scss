@@ -62,7 +62,7 @@ header
 
 .price
 {
-    width: 20%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     font-size: 13px;
@@ -79,13 +79,17 @@ header
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     height: 100%;
-    width: 20%;
+    width: 100%;
     justify-content: center;
     overflow: hidden;
     font-size: 30px;
     padding-top: 14px;
     padding-left: 11px;
     
+    &:hover
+    {
+        animation: spin 3s linear both, slide 1s linear both;
+    }
 }
 
 .slide
