@@ -97,6 +97,7 @@ a {
   background: -webkit-linear-gradient(40deg, #9356DC 0%, #FF79DA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-color: #f5ecff;
 }
 
 header {
