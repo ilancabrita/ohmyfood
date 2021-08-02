@@ -52,7 +52,7 @@
 
     &__plate
     {
-        border-radius: 25px;
+        border-radius: 15px;
         border-color: $colour-gray-smart;
         margin: 15px;
         box-shadow: 0 1rem 2rem -0.5rem $colour-gray;
@@ -66,16 +66,6 @@
         {
             animation: spin 3s linear both;
         }
-        &:hover + .price
-        {
-            
-        }
-    }
-
-    &__row
-    {
-        display: flex;
-        flex-direction: row;
     }
 }
 

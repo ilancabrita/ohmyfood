@@ -126,25 +126,18 @@ header {
   color: #fff;
   height: 100%;
   width: 100%;
-  justify-content: center;
   overflow: hidden;
   font-size: 25px;
   padding-top: 14px;
   padding-left: 11px;
 }
-.fa-check-circle:hover {
-  animation: spin 3s linear both;
-}
 
 .slide {
-  width: 20%;
+  width: 0%;
   overflow: hidden;
   background-color: #99E2D0;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-}
-.slide:hover {
-  animation: slide 3s linear both;
 }
 
 @keyframes spin {
@@ -165,10 +158,10 @@ header {
 }
 @keyframes slide {
   from {
-    transform: width 20%;
+    transform: width 0%;
   }
   to {
-    transform: width 40%;
+    transform: width 20%;
   }
 }
 *,
@@ -364,7 +357,7 @@ h4 {
   background-color: #f5ecff;
 }
 .container__plate {
-  border-radius: 25px;
+  border-radius: 15px;
   border-color: #f6f6f6;
   margin: 15px;
   box-shadow: 0 1rem 2rem -0.5rem gray;
@@ -375,10 +368,6 @@ h4 {
 }
 .container__plate:hover + .fa-check-circle {
   animation: spin 3s linear both;
-}
-.container__row {
-  display: flex;
-  flex-direction: row;
 }
 
 .title {
@@ -664,13 +653,6 @@ h3 {
 .restaurant {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  width: 40%;
 }
 
 .column {
