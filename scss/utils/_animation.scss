@@ -11,39 +11,29 @@
 
 .fa-heart-home
 {
-    font-size: 25px;
+    font-size: 4rem;
     color: $colour-black;
     position: absolute;
-    right: 25px;
-    top: 75%;
+    right: 15px;
+    top: 85%;
 }
 
 .fa-heart
 {
-    font-weight: 300;
-    margin: 0px;
-    margin-left: 50%;
+    margin-top: 5px;
+    margin-right: 25px;
+    width: 24px;
+    height: 24px;
+    background-size: 100%;
+    background-color: url(../../images/heart.svg);
 }
 
 .fa-heart-home, .fa-heart
 {
-    font-size: 2rem;
-    align-self: center;
-    margin-right: 2rem;
-
-    //Non stable
-    cursor: pointer;
-    background-color: $colour-black;
-    padding: 0.1rem;
-    -webkit-background-clip: text;
-    -webkit-text-stroke: 0.2rem transparent;
-
     &:hover
     {
-        background: -webkit-linear-gradient(40deg, $colour-primary 0%, $colour-secondary 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-color: $cloour-pink;
+        background-image: url(../../images/heartc.png);
+        transition-duration: 1s;
     }
 }
 
