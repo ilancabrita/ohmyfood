@@ -70,34 +70,28 @@ a {
 }
 
 .fa-heart-home {
-  font-size: 25px;
+  font-size: 4rem;
   color: black;
   position: absolute;
-  right: 25px;
-  top: 75%;
+  right: 15px;
+  top: 85%;
 }
 
-.fa-heart {
-  font-weight: 300;
-  margin: 0px;
-  margin-left: 50%;
-}
-
-.fa-heart-home, .fa-heart {
+i {
   font-size: 2rem;
   align-self: center;
   margin-right: 2rem;
   cursor: pointer;
-  background-color: black;
-  padding: 0.1rem;
+  background: black;
+  color: #fff;
+  padding: 1rem;
   -webkit-background-clip: text;
   -webkit-text-stroke: 0.2rem transparent;
 }
-.fa-heart-home:hover, .fa-heart:hover {
-  background: -webkit-linear-gradient(40deg, #9356DC 0%, #FF79DA 100%);
+i:hover {
+  background-color: -webkit-linear-gradient(40deg, #9356DC 0%, #FF79DA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-color: #f5ecff;
 }
 
 header {
@@ -622,45 +616,6 @@ footer {
 .cta {
   display: flex;
   justify-content: center;
-}
-
-.partie {
-  font-weight: 400;
-  font-size: 15px;
-  padding-left: 20px;
-}
-
-.carte {
-  font-weight: 600;
-  padding-left: 20px;
-}
-
-h2 {
-  padding-left: 15px;
-  font-size: 15px;
-}
-
-h3 {
-  padding-left: 15px;
-  font-size: 17px;
-  font-weight: 500;
-}
-
-.description {
-  padding-left: 15px;
-  font-size: 16px;
-}
-
-.restaurant {
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  overflow: hidden;
 }
 
 /*# sourceMappingURL=main.css.map */

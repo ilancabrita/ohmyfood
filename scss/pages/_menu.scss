@@ -3,3 +3,25 @@
     display: flex;
     justify-content: center;
 }
+
+.section-menu
+{
+    &__title
+    {
+
+    }
+    &__items
+    {
+        &__item
+        {
+            &__main-content
+            {
+
+            }
+            &__sub-content
+            {
+
+            }
+        }
+    }
+}
