@@ -618,4 +618,49 @@ footer {
   justify-content: center;
 }
 
+.restaurent {
+  margin: 0rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+span {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.section-menu__title {
+  font-weight: 600;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+.section-menu__items {
+  border: 2px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0rem;
+}
+.section-menu__items__item {
+  display: flex;
+  flex-direction: row;
+}
+.section-menu__items__item__main-content {
+  padding-left: 1rem;
+}
+
 /*# sourceMappingURL=main.css.map */
