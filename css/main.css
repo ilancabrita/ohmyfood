@@ -618,13 +618,16 @@ footer {
   justify-content: center;
 }
 
-.restaurent {
+.restaurant {
   margin: 0rem;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 h2 {
   font-weight: 700;
   font-size: 2.5rem;
+  padding-left: 2rem;
 }
 
 h4 {
@@ -634,12 +637,13 @@ h4 {
 
 p {
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 span {
   font-weight: 300;
   font-size: 1.5rem;
+  margin-top: auto;
 }
 
 .section-menu__title {
@@ -648,19 +652,26 @@ span {
   padding-left: 2rem;
 }
 .section-menu__items {
-  border: 2px;
-  border-radius: 25px;
   display: flex;
   justify-content: center;
-  width: 90%;
   margin: 0rem;
 }
 .section-menu__items__item {
+  border: 2px;
+  border-radius: 25px;
+  box-shadow: 0 1rem 2rem -0.5rem gray;
   display: flex;
   flex-direction: row;
+  width: 90%;
+  margin: 2rem;
 }
 .section-menu__items__item__main-content {
-  padding-left: 1rem;
+  padding-left: 2.5rem;
+  width: 100%;
+}
+.section-menu__items__item__sub-content {
+  width: 20%;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=main.css.map */

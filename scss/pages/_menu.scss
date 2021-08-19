@@ -4,15 +4,18 @@
     justify-content: center;
 }
 
-.restaurent
+.restaurant
 {
     margin: 0rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 h2
 {
     font-weight: 700;
     font-size: 2.5rem;
+    padding-left: 2rem;
 }
 
 h4
@@ -24,13 +27,14 @@ h4
 p
 {
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 span
 {
     font-weight: 300;
     font-size: 1.5rem;
+    margin-top: auto;
 }
 
 .section-menu
@@ -43,23 +47,27 @@ span
     }
     &__items
     {
-        border: 2px;
-        border-radius: 25px;
         display: flex;
         justify-content: center;
-        width: 90%;
         margin: 0rem;
         &__item
         {
+            border: 2px;
+            border-radius: 25px;
+            box-shadow: 0 1rem 2rem -0.5rem $colour-gray;
             display: flex;
             flex-direction: row;
+            width: 90%;
+            margin: 2rem;
             &__main-content
             {
-                padding-left: 1rem;
+                padding-left: 2.5rem;
+                width: 100%;
             }
             &__sub-content
             {
-
+                width: 20%;
+                overflow: hidden;
             }
         }
     }
