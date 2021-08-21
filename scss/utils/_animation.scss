@@ -26,8 +26,7 @@ i
 
     //Mon stable
     cursor: pointer;
-    background: $colour-black;
-    color: $colour-white;
+    color: $colour-black;
     padding: 1rem;
     -webkit-background-clip: text;
     -webkit-text-stroke: 0.2rem transparent;
@@ -68,14 +67,12 @@ header
 
 .fa-check-circle
 {
-    color: $colour-white;
     height: 100%;
     width: 100%;
     overflow: hidden;
-    font-size: 25px;
+    font-size: 3rem;
     padding-top: 14px;
     padding-left: 11px;
-
 }
 
 .slide

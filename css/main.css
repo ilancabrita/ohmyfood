@@ -82,8 +82,7 @@ i {
   align-self: center;
   margin-right: 2rem;
   cursor: pointer;
-  background: black;
-  color: #fff;
+  color: black;
   padding: 1rem;
   -webkit-background-clip: text;
   -webkit-text-stroke: 0.2rem transparent;
@@ -118,11 +117,10 @@ header {
 }
 
 .fa-check-circle {
-  color: #fff;
   height: 100%;
   width: 100%;
   overflow: hidden;
-  font-size: 25px;
+  font-size: 3rem;
   padding-top: 14px;
   padding-left: 11px;
 }
@@ -616,6 +614,7 @@ footer {
 body {
   width: 100%;
   margin: 0rem;
+  padding: 0rem;
 }
 
 .cta {
@@ -677,7 +676,7 @@ main {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin: 2rem;
+  margin: 1rem;
 }
 .section-menu__items__item__main-content {
   padding-left: 2.5rem;
