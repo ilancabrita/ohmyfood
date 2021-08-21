@@ -613,6 +613,11 @@ footer {
   margin: 0 auto;
 }
 
+body {
+  width: 100%;
+  margin: 0rem;
+}
+
 .cta {
   display: flex;
   justify-content: center;
@@ -646,6 +651,15 @@ span {
   margin-top: auto;
 }
 
+main {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.section-menu {
+  display: flex;
+  flex-direction: column;
+}
 .section-menu__title {
   font-weight: 600;
   font-size: 2rem;
@@ -662,7 +676,7 @@ span {
   box-shadow: 0 1rem 2rem -0.5rem gray;
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 100%;
   margin: 2rem;
 }
 .section-menu__items__item__main-content {

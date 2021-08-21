@@ -1,3 +1,9 @@
+body
+{
+    width: 100%;
+    margin: 0rem;
+}
+
 .cta
 {
     display: flex;
@@ -37,8 +43,16 @@ span
     margin-top: auto;
 }
 
+main
+{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
 .section-menu
 {
+    display: flex;
+    flex-direction: column;
     &__title
     {
         font-weight: 600;
@@ -57,7 +71,7 @@ span
             box-shadow: 0 1rem 2rem -0.5rem $colour-gray;
             display: flex;
             flex-direction: row;
-            width: 90%;
+            width: 100%;
             margin: 2rem;
             &__main-content
             {
