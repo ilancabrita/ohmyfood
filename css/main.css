@@ -122,6 +122,7 @@ header {
   font-size: 3rem;
   padding-top: 14px;
   padding-left: 11px;
+  background-color: green;
 }
 
 .slide {
@@ -683,10 +684,12 @@ main {
   padding-left: 2.5rem;
   width: 100%;
   overflow: hidden;
+  background-color: turquoise;
 }
 .section-menu__items__item__sub-content {
   width: 20%;
   overflow: hidden;
+  background-color: yellow;
 }
 
 /*# sourceMappingURL=main.css.map */

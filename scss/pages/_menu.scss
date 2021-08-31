@@ -85,12 +85,14 @@ main
                 padding-left: 2.5rem;
                 width: 100%;
                 overflow: hidden;
+                background-color: turquoise;
             }
 
             &__sub-content
             {
                 width: 20%;
                 overflow: hidden;
+                background-color: yellow;
             }
         }
     }
