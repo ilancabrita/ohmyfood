@@ -65,3 +65,16 @@
     font-size: 15px;
 }
 
+header
+{
+    position: relative;
+}
+
+.fa-arrow-left
+{
+    color: $colour-black;
+    font-size: 15px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}

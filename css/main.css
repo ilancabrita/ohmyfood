@@ -82,7 +82,7 @@ i {
   align-self: center;
   margin-right: 2rem;
   cursor: pointer;
-  color: black;
+  color: none;
   padding: 1rem;
   -webkit-background-clip: text;
   -webkit-text-stroke: 0.2rem transparent;
@@ -93,36 +93,17 @@ i:hover {
   -webkit-text-fill-color: transparent;
 }
 
-header {
-  position: relative;
-}
-
-.fa-arrow-left {
-  color: black;
-  font-size: 15px;
-  position: absolute;
-  left: 10%;
-  top: 5%;
-}
-
-.price {
-  width: 20%;
-  display: flex;
-  flex-direction: row;
-  font-size: 13px;
-  font-weight: 300;
-  margin-top: auto;
-  justify-content: flex-end;
-  padding-right: 20px;
-}
-
 .fa-check-circle {
   height: 100%;
   width: 100%;
   font-size: 3rem;
   padding-top: 14px;
   padding-left: 11px;
-  background-color: green;
+  background-color: #fff;
+}
+.fa-check-circle:hover {
+  animation-name: rotate;
+  animation-duration: 2s;
 }
 
 .slide {
@@ -155,6 +136,14 @@ header {
   }
   to {
     transform: width 20%;
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 *,
@@ -281,6 +270,18 @@ h4 {
 .fa-map-marker-alt {
   padding: 1rem;
   font-size: 15px;
+}
+
+header {
+  position: relative;
+}
+
+.fa-arrow-left {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  left: 10%;
+  top: 5%;
 }
 
 .nav {
@@ -682,14 +683,49 @@ main {
 }
 .section-menu__items__item__main-content {
   padding-left: 2.5rem;
-  width: 100%;
+  width: 95%;
   overflow: hidden;
   background-color: turquoise;
 }
 .section-menu__items__item__sub-content {
   width: 20%;
   overflow: hidden;
-  background-color: yellow;
+  background-color: #7cc97c;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.section-menu__items__item__sub-content:hover {
+  animation-name: slide;
+  animation-duration: 2s;
+}
+
+.price {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: auto;
+  justify-content: flex-end;
+}
+
+@keyframes slide {
+  0% {
+    left: 200%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+@keyframes slideX {
+  0% {
+    left: 200%;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 0%;
+    transform: rotate(360deg);
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

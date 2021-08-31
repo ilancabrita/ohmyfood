@@ -26,7 +26,7 @@ i
 
     //Mon stable
     cursor: pointer;
-    color: $colour-black;
+    color: none;
     padding: 1rem;
     -webkit-background-clip: text;
     -webkit-text-stroke: 0.2rem transparent;
@@ -39,32 +39,6 @@ i
     }
 }
 
-header
-{
-    position: relative;
-}
-
-.fa-arrow-left
-{
-    color: $colour-black;
-    font-size: 15px;
-    position: absolute;
-    left: 10%;
-    top: 5%;
-}
-
-.price
-{
-    width: 20%;
-    display: flex;
-    flex-direction: row;
-    font-size: 13px;
-    font-weight: 300;
-    margin-top: auto;
-    justify-content: flex-end;
-    padding-right: 20px;
-}
-
 .fa-check-circle
 {
     height: 100%;
@@ -72,7 +46,13 @@ header
     font-size: 3rem;
     padding-top: 14px;
     padding-left: 11px;
-    background-color: $colour-green;
+    background-color: $colour-white;
+
+    &:hover
+    {
+        animation-name: rotate;
+        animation-duration: 2s;
+    }
 }
 
 .slide
@@ -101,4 +81,9 @@ header
 {
     from { transform: width 0%;}
     to { transform: width 20%;}
+}
+@keyframes rotate 
+{
+    0%   {transform: rotate(0deg);}
+    100%  {transform: rotate(360deg);}
 }
