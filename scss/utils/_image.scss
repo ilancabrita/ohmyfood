@@ -28,8 +28,9 @@
 
     &__restaurant
     {
+        max-width: 100%;
         width: 100%;
-        height: 15rem;
+        max-height: 32rem;
         object-fit: cover;  
     }
 }

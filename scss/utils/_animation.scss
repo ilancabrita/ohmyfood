@@ -11,7 +11,6 @@
 
 .fa-heart-home
 {
-    font-size: 4rem;
     color: $colour-black;
     position: absolute;
     right: 15px;
@@ -20,22 +19,35 @@
 
 i.fa-heart-home, i.fa-heart
 {
-    font-size: 2rem;
-    align-self: center;
-    margin-right: 2rem;
-
-    //Mon stable
+    height: 3rem;
+    width: 3rem;
+    border: transparent 0px solid;
+    padding: 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     cursor: pointer;
+    position: relative;
     background-color: $colour-black;
-    padding: 1rem;
-    -webkit-background-clip: text;
-    -webkit-text-stroke: 0.2rem transparent;
+    font-size: 3rem;
+    
 
-    &:hover
+    &:hover::before 
     {
-        background-color: -webkit-linear-gradient(40deg, $colour-primary 0%, $colour-secondary 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        opacity: 1;
+    }
+
+    &::before 
+    {
+        opacity: 0;
+        transition: 0.5s;
+        content: "\f004";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background:linear-gradient(0deg, $colour-primary 0%, $colour-secondary 100%);
     }
 }
 

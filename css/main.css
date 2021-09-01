@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
@@ -54,8 +55,9 @@ a {
   border-top-right-radius: 25px;
 }
 .image__restaurant {
+  max-width: 100%;
   width: 100%;
-  height: 15rem;
+  max-height: 32rem;
   object-fit: cover;
 }
 
@@ -70,7 +72,6 @@ a {
 }
 
 .fa-heart-home {
-  font-size: 4rem;
   color: black;
   position: absolute;
   right: 15px;
@@ -78,19 +79,31 @@ a {
 }
 
 i.fa-heart-home, i.fa-heart {
-  font-size: 2rem;
-  align-self: center;
-  margin-right: 2rem;
+  height: 3rem;
+  width: 3rem;
+  border: transparent 0px solid;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+  position: relative;
   background-color: black;
-  padding: 1rem;
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 0.2rem transparent;
+  font-size: 3rem;
 }
-i.fa-heart-home:hover, i.fa-heart:hover {
-  background-color: -webkit-linear-gradient(40deg, #9356DC 0%, #FF79DA 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+i.fa-heart-home:hover::before, i.fa-heart:hover::before {
+  opacity: 1;
+}
+i.fa-heart-home::before, i.fa-heart::before {
+  opacity: 0;
+  transition: 0.5s;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
 }
 
 i.fa-check-circle {
@@ -624,15 +637,22 @@ body {
 }
 
 .restaurant {
-  margin: 0rem;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  margin-top: -4rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  background-color: #F6F6F6;
+  z-index: 1;
+  position: relative;
 }
 
 h2 {
+  display: block;
   font-weight: 700;
   font-size: 2.5rem;
-  padding-left: 2rem;
+  margin-block-start: 0.5rem;
+  margin-block-end: 0.5rem;
+  margin-inline-start: 0rem;
+  margin-inline-end: 0rem;
 }
 
 h4 {
@@ -647,12 +667,6 @@ p {
   overflow: hidden;
 }
 
-span {
-  font-weight: 300;
-  font-size: 1.5rem;
-  margin-top: auto;
-}
-
 main {
   margin-top: -4rem;
   border-top-left-radius: 2rem;
@@ -660,6 +674,23 @@ main {
   background-color: #F6F6F6;
   z-index: 1;
   position: relative;
+}
+
+.price {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: auto;
+  justify-content: flex-end;
+}
+
+.carte {
+  padding: 1rem 2rem 0rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .section-menu {
@@ -670,6 +701,7 @@ main {
   font-weight: 600;
   font-size: 2rem;
   padding-left: 2rem;
+  padding-bottom: 1.5rem;
 }
 .section-menu__items {
   display: flex;
@@ -701,16 +733,6 @@ main {
 .section-menu__items__item__sub-content:hover {
   animation-name: slide;
   animation-duration: 2s;
-}
-
-.price {
-  width: 20%;
-  display: flex;
-  flex-direction: row;
-  font-size: 15px;
-  font-weight: 300;
-  margin-top: auto;
-  justify-content: flex-end;
 }
 
 @keyframes slide {
