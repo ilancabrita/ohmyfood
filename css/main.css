@@ -77,31 +77,31 @@ a {
   top: 85%;
 }
 
-i {
+i.fa-heart-home, i.fa-heart {
   font-size: 2rem;
   align-self: center;
   margin-right: 2rem;
   cursor: pointer;
-  color: none;
+  background-color: black;
   padding: 1rem;
   -webkit-background-clip: text;
   -webkit-text-stroke: 0.2rem transparent;
 }
-i:hover {
+i.fa-heart-home:hover, i.fa-heart:hover {
   background-color: -webkit-linear-gradient(40deg, #9356DC 0%, #FF79DA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.fa-check-circle {
+i.fa-check-circle {
   height: 100%;
   width: 100%;
   font-size: 3rem;
   padding-top: 14px;
   padding-left: 11px;
-  background-color: #fff;
+  background-color: #99E2D0;
 }
-.fa-check-circle:hover {
+i.fa-check-circle:hover {
   animation-name: rotate;
   animation-duration: 2s;
 }
@@ -654,8 +654,12 @@ span {
 }
 
 main {
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  margin-top: -4rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  background-color: #F6F6F6;
+  z-index: 1;
+  position: relative;
 }
 
 .section-menu {
@@ -710,14 +714,14 @@ main {
 }
 
 @keyframes slide {
-  0% {
-    left: 200%;
+  from {
+    right: 0px;
   }
-  100% {
-    left: 0%;
+  to {
+    right: 100px;
   }
 }
-@keyframes slideX {
+@keyframes XX {
   0% {
     left: 200%;
     transform: rotate(0deg);

@@ -48,8 +48,12 @@ span
 
 main
 {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    margin-top: -4rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color: $colour-gray-very-smart;
+    z-index: 1;
+    position: relative;
 }
 
 .section-menu
@@ -120,11 +124,11 @@ main
 
 @keyframes slide
 {
-    0%   {left:200%;}
-    100%  {left:0%;}
+    from   {right:0px;}
+    to  {right:100px;}
 }
 
-@keyframes slideX
+@keyframes XX
 {
     0%   {left:200%; transform: rotate(0deg);}
     100%  {left:0%; transform: rotate(360deg);}

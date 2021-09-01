@@ -18,7 +18,7 @@
     top: 85%;
 }
 
-i
+i.fa-heart-home, i.fa-heart
 {
     font-size: 2rem;
     align-self: center;
@@ -26,7 +26,7 @@ i
 
     //Mon stable
     cursor: pointer;
-    color: none;
+    background-color: $colour-black;
     padding: 1rem;
     -webkit-background-clip: text;
     -webkit-text-stroke: 0.2rem transparent;
@@ -39,14 +39,14 @@ i
     }
 }
 
-.fa-check-circle
+i.fa-check-circle
 {
     height: 100%;
     width: 100%;
     font-size: 3rem;
     padding-top: 14px;
     padding-left: 11px;
-    background-color: $colour-white;
+    background-color: $colour-tertiarie;
 
     &:hover
     {
