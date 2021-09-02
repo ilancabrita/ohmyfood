@@ -35,8 +35,11 @@ h2
 h4
 {
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0rem;
 }
 
 p
@@ -44,6 +47,9 @@ p
     font-weight: 300;
     font-size: 1.5rem;
     overflow: hidden;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 main
@@ -60,11 +66,11 @@ main
 {
     width: 20%;
     display: flex;
-    flex-direction: row;
-    font-size: 15px;
-    font-weight: 300;
-    margin-top: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
     justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 0.5rem;
 }
 
 .carte
@@ -124,9 +130,9 @@ main
 
             &__main-content
             {
-                padding-left: 2.5rem;
                 overflow: hidden;
-                background-color: turquoise;
+                white-space: nowrap;
+                text-overflow: ellipsis;
 
             }
 
@@ -134,9 +140,9 @@ main
             {
                 width: 20%;
                 overflow: hidden;
-                background-color: $colour-green-smart;
-                border-top-right-radius: 20px;
-                border-bottom-right-radius: 20px;
+                background-color: #fff;
+                display: flex;
+                border-radius: 100px;
             }
         }
     }

@@ -110,10 +110,12 @@ i.fa-check-circle {
   height: 100%;
   width: 100%;
   font-size: 3rem;
-  padding-top: 0rem;
-  padding-left: 0rem;
   background-color: #99E2D0;
   color: #fff;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
 }
 
 .slide {
@@ -654,14 +656,20 @@ h2 {
 
 h4 {
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0rem;
 }
 
 p {
   font-weight: 300;
   font-size: 1.5rem;
   overflow: hidden;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 main {
@@ -676,11 +684,11 @@ main {
 .price {
   width: 20%;
   display: flex;
-  flex-direction: row;
-  font-size: 15px;
-  font-weight: 300;
-  margin-top: auto;
+  font-size: 1.5rem;
+  font-weight: 700;
   justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 0.5rem;
 }
 
 .carte {
@@ -731,16 +739,16 @@ main {
   width: 100%;
 }
 .section-menu__items__item__main-content {
-  padding-left: 2.5rem;
   overflow: hidden;
-  background-color: turquoise;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .section-menu__items__item__sub-content {
   width: 20%;
   overflow: hidden;
-  background-color: #7cc97c;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  border-radius: 100px;
 }
 
 @keyframes slide {
