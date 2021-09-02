@@ -110,13 +110,10 @@ i.fa-check-circle {
   height: 100%;
   width: 100%;
   font-size: 3rem;
-  padding-top: 14px;
-  padding-left: 11px;
+  padding-top: 0rem;
+  padding-left: 0rem;
   background-color: #99E2D0;
-}
-i.fa-check-circle:hover {
-  animation-name: rotate;
-  animation-duration: 2s;
+  color: #fff;
 }
 
 .slide {
@@ -698,28 +695,43 @@ main {
   flex-direction: column;
 }
 .section-menu__title {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 2rem;
   padding-left: 2rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.section-menu__title::after {
+  width: 3rem;
+  height: 0.25rem;
+  background-color: #99E2D0;
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
 }
 .section-menu__items {
   display: flex;
   justify-content: center;
-  margin: 0rem;
+  margin: 0rem 1rem;
 }
 .section-menu__items__item {
   border: 2px;
-  border-radius: 20px;
+  border-radius: 1rem;
   box-shadow: 0 1rem 2rem -0.5rem gray;
   display: flex;
-  flex-direction: row;
-  width: 95%;
-  margin: 1rem;
+  margin: 1rem 0rem;
+  padding: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+  animation: XX 2s;
+  animation-timing-function: cubic-bezier(0.5, 1, 58, 0.34, 0.82);
+  animation-fill-mode: both;
+  transform: scale(0);
+  width: 100%;
 }
 .section-menu__items__item__main-content {
   padding-left: 2.5rem;
-  width: 95%;
   overflow: hidden;
   background-color: turquoise;
 }
@@ -729,10 +741,6 @@ main {
   background-color: #7cc97c;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-}
-.section-menu__items__item__sub-content:hover {
-  animation-name: slide;
-  animation-duration: 2s;
 }
 
 @keyframes slide {
@@ -750,7 +758,7 @@ main {
   }
   100% {
     left: 0%;
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
 

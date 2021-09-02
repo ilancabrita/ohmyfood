@@ -82,34 +82,52 @@ main
 
     &__title
     {
-        font-weight: 600;
+        font-weight: 400;
         font-size: 2rem;
         padding-left: 2rem;
-        padding-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+        position: relative;
+        text-transform: uppercase;
+
+        &::after
+        {
+            width: 3rem;
+            height: 0.25rem;
+            background-color: $colour-tertiarie;
+            position: absolute;
+            left: 0rem;
+            bottom: 0rem;
+        }
     }
 
     &__items
     {
         display: flex;
         justify-content: center;
-        margin: 0rem;
+        margin: 0rem 1rem;
 
         &__item
         {
             border: 2px;
-            border-radius: 20px;
+            border-radius: 1rem;
             box-shadow: 0 1rem 2rem -0.5rem $colour-gray;
             display: flex;
-            flex-direction: row;
-            width: 95%;
-            margin: 1rem;
+            margin: 1rem 0rem;
+            padding: 1rem;
+            overflow: hidden;
+            cursor: pointer;
+            animation: XX 2s;
+            animation-timing-function: cubic-bezier(0.5, 1,58, 0.34, 0.82);
+            animation-fill-mode: both;
+            transform: scale(0);
+            width: 100%;
 
             &__main-content
             {
                 padding-left: 2.5rem;
-                width: 95%;
                 overflow: hidden;
                 background-color: turquoise;
+
             }
 
             &__sub-content
@@ -119,12 +137,6 @@ main
                 background-color: $colour-green-smart;
                 border-top-right-radius: 20px;
                 border-bottom-right-radius: 20px;
-
-                &:hover
-                {
-                    animation-name: slide;
-                    animation-duration: 2s;
-                }
             }
         }
     }
@@ -141,5 +153,5 @@ main
 @keyframes XX
 {
     0%   {left:200%; transform: rotate(0deg);}
-    100%  {left:0%; transform: rotate(360deg);}
+    100%  {left:0%; transform: rotate(-360deg);}
 }
