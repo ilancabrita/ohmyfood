@@ -58,14 +58,6 @@ i.fa-check-circle
     height: 2rem;
     width: 2rem;
     font-size: 2.5rem;
-
-    &:hover
-    {
-        animation-name: spin;
-        animation-duration: 2s;
-        animation-fill-mode: both;
-        
-    }
 }
 
 .slide
@@ -81,6 +73,12 @@ i.fa-check-circle
 {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(359deg);}
+}
+
+@keyframes rotate 
+{
+    0%   {right:0%; transform: rotate(0deg);}
+    100%  {left:100%; transform: rotate(-360deg);}   
 }
 
 @keyframes moveright
