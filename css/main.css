@@ -107,21 +107,21 @@ i.fa-heart-home::before, i.fa-heart::before {
 }
 
 i.fa-check-circle {
-  height: 100%;
-  width: 100%;
-  font-size: 3rem;
   background-color: #99E2D0;
   color: #fff;
-  align-items: center;
-  justify-content: center;
-  transform: rotate(180deg);
-  transition-duration: 0.5s;
+  height: 2rem;
+  width: 2rem;
+  font-size: 2.5rem;
+}
+i.fa-check-circle:hover {
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-fill-mode: both;
 }
 
 .slide {
   width: 0%;
   overflow: hidden;
-  background-color: #99E2D0;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -732,23 +732,29 @@ main {
   padding: 1rem;
   overflow: hidden;
   cursor: pointer;
-  animation: XX 2s;
-  animation-timing-function: cubic-bezier(0.5, 1, 58, 0.34, 0.82);
-  animation-fill-mode: both;
-  transform: scale(0);
   width: 100%;
 }
 .section-menu__items__item__main-content {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  width: 80%;
 }
 .section-menu__items__item__sub-content {
   width: 20%;
+  background-color: #99E2D0;
+  margin: -1rem -8rem -1rem 1rem;
   overflow: hidden;
-  background-color: #fff;
   display: flex;
-  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  animation: XX 2s;
+  animation-timing-function: cubic-bezier(0.5, 1, 58, 0.34, 0.82);
+  animation-fill-mode: both;
+  transform: scale(0);
+}
+.section-menu__items__item__sub-content:hover {
+  margin-right: -1rem;
 }
 
 @keyframes slide {
@@ -761,12 +767,20 @@ main {
 }
 @keyframes XX {
   0% {
-    left: 200%;
+    right: 0%;
     transform: rotate(0deg);
   }
   100% {
-    left: 0%;
+    left: 100%;
     transform: rotate(-360deg);
+  }
+}
+@keyframes appear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 

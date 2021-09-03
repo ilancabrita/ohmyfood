@@ -122,10 +122,6 @@ main
             padding: 1rem;
             overflow: hidden;
             cursor: pointer;
-            animation: XX 2s;
-            animation-timing-function: cubic-bezier(0.5, 1,58, 0.34, 0.82);
-            animation-fill-mode: both;
-            transform: scale(0);
             width: 100%;
 
             &__main-content
@@ -133,16 +129,28 @@ main
                 overflow: hidden;
                 white-space: nowrap;
                 text-overflow: ellipsis;
-
+                width: 80%;
             }
 
             &__sub-content
             {
                 width: 20%;
+                background-color: $colour-tertiarie;
+                margin: -1rem -8rem -1rem 1rem;
                 overflow: hidden;
-                background-color: #fff;
                 display: flex;
-                border-radius: 100px;
+                align-items: center;
+                justify-content: center;
+                animation: XX 2s;
+                animation-timing-function: cubic-bezier(0.5, 1,58, 0.34, 0.82);
+                animation-fill-mode: both;
+                transform: scale(0);
+    
+                
+                &:hover
+                {
+                    margin-right: -1rem;
+                }
             }
         }
     }
@@ -158,6 +166,12 @@ main
 
 @keyframes XX
 {
-    0%   {left:200%; transform: rotate(0deg);}
-    100%  {left:0%; transform: rotate(-360deg);}
+    0%   {right:0%; transform: rotate(0deg);}
+    100%  {left:100%; transform: rotate(-360deg);}
+}
+
+@keyframes appear 
+{
+    0% {transform: scale(0);}
+    100% {transform: scale(1);}
 }
