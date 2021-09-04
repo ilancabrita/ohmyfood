@@ -141,11 +141,11 @@ main
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                transition-duration: 0.5s;
                 animation: XX 2s;
                 animation-timing-function: cubic-bezier(0.5, 1,58, 0.34, 0.82);
                 animation-fill-mode: both;
                 transform: scale(0);
-    
                 
                 &:hover
                 {
