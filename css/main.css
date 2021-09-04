@@ -764,6 +764,7 @@ main {
   align-items: center;
   justify-content: center;
 }
+
 @keyframes slide {
   0% {
     right: 0px;
