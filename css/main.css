@@ -209,28 +209,24 @@ h4 {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  position: relative;
   font-size: 3rem;
-}
-.coeur__vide {
-  opacity: 1;
-  transition: 2s;
+  transition-duration: 1s;
+  position: relative;
 }
 .coeur__plein {
+  position: absolute;
   opacity: 0;
-  transition: 2s;
+  transition-duration: 0.5s;
 }
-.coeur:hover__vide {
-  opacity: 0;
-}
-.coeur:hover__plein {
+.coeur__vide {
+  z-index: 1;
   opacity: 1;
+  transition-duration: 0.5s;
 }
 
 i.fa-heart {
   font-size: 2rem;
   align-self: center;
-  margin-right: 2rem;
   cursor: pointer;
   background: none;
   color: black;
@@ -242,6 +238,14 @@ i.fa-heart:hover {
   background: -webkit-linear-gradient(40deg, #9356DC 0%, #FF79DA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+i.fa-heart:hover .coeur__plein {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+i.fa-heart:hover .coeur__vide {
+  opacity: 0;
+  transition-duration: 0.5s;
 }
 
 .btn {

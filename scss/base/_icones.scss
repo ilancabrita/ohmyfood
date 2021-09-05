@@ -8,43 +8,29 @@
     align-items:center;
     justify-content:center;
     cursor: pointer;
-    position: relative;
     font-size: 3rem;
-
-    &__vide
-    {
-        opacity: 1;
-        transition: 2s;
-    }
+    transition-duration: 1s;
+    position: relative;
 
     &__plein
     {
+        position: absolute;
         opacity: 0;
-        transition: 2s;
+        transition-duration: 0.5s;
     }
 
-    &:hover
+    &__vide
     {
-        &__vide
-        {
-            opacity: 0;
-        }
-
-        &__plein
-        {
-            opacity: 1;
-        }
+        z-index: 1;
+        opacity: 1;
+        transition-duration: 0.5s;
     }
-
-
-    
 }
 
 i.fa-heart
 {
     font-size: 2rem;
     align-self: center;
-    margin-right: 2rem;
 
     //Non stable
     cursor: pointer;
@@ -59,5 +45,20 @@ i.fa-heart
         background: -webkit-linear-gradient(40deg, $colour-primary 0%, $colour-secondary 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+
+        & .coeur__plein
+        {
+            opacity: 1;
+            transition-duration: 0.5s;
+        }
+
+        & .coeur__vide
+        {
+            opacity: 0;
+            transition-duration: 0.5s;
+        }
     }
 }
+
+//-webkit-background-clip: text; contenu enfant par rapport parent
+//aria-hidden; caché un contenu
