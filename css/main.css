@@ -736,6 +736,9 @@ main {
   transform: scale(0);
   margin-right: -1rem;
 }
+.section-menu__items:hover i.fa-check-circle {
+  animation: spin 4s;
+}
 .section-menu__items__item {
   border: 2px;
   border-radius: 1rem;

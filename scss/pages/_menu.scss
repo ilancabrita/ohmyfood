@@ -121,6 +121,12 @@ main
             margin-right: -1rem;
         }
 
+        &:hover i.fa-check-circle
+        {
+            animation: spin 4s;
+            
+        }
+
         &__item
         {
             border: 2px;
@@ -135,7 +141,6 @@ main
             animation: apparition 2s;
             animation-fill-mode: both;
             transform: scale(0);
-
 
             &__main-content
             {
