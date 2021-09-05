@@ -212,6 +212,20 @@ h4 {
   position: relative;
   font-size: 3rem;
 }
+.coeur__vide {
+  opacity: 1;
+  transition: 2s;
+}
+.coeur__plein {
+  opacity: 0;
+  transition: 2s;
+}
+.coeur:hover__vide {
+  opacity: 0;
+}
+.coeur:hover__plein {
+  opacity: 1;
+}
 
 i.fa-heart {
   font-size: 2rem;

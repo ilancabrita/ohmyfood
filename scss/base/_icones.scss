@@ -11,6 +11,32 @@
     position: relative;
     font-size: 3rem;
 
+    &__vide
+    {
+        opacity: 1;
+        transition: 2s;
+    }
+
+    &__plein
+    {
+        opacity: 0;
+        transition: 2s;
+    }
+
+    &:hover
+    {
+        &__vide
+        {
+            opacity: 0;
+        }
+
+        &__plein
+        {
+            opacity: 1;
+        }
+    }
+
+
     
 }
 
