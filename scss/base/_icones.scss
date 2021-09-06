@@ -17,6 +17,7 @@
         position: absolute;
         opacity: 0;
         transition-duration: 0.5s;
+        z-index: 2;
     }
 
     &__vide
@@ -24,7 +25,16 @@
         z-index: 1;
         opacity: 1;
         transition-duration: 0.5s;
+        color: $colour-black;
     }
+    &:hover
+    {
+        .coeur__plein
+        {
+            opacity: 1;
+            color: $colour-secondary 100%;
+        }
+    } 
 }
 
 i.fa-heart
@@ -35,30 +45,17 @@ i.fa-heart
     //Non stable
     cursor: pointer;
     background: none;
-    color: $colour-black;
     padding: 0.1rem;
     -webkit-background-clip: text;
     -webkit-text-stroke: 0.2rem transparent;
 
-    &:hover
-    {
-        background: -webkit-linear-gradient(40deg, $colour-primary 0%, $colour-secondary 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    
 
-        & .coeur__plein
-        {
-            opacity: 1;
-            transition-duration: 0.5s;
-        }
-
-        & .coeur__vide
-        {
-            opacity: 0;
-            transition-duration: 0.5s;
-        }
-    }
 }
 
 //-webkit-background-clip: text; contenu enfant par rapport parent
 //aria-hidden; caché un contenu
+
+//background: -webkit-linear-gradient(40deg, $colour-primary 0%, $colour-secondary 100%);
+//-webkit-background-clip: text;
+//-webkit-text-fill-color: transparent;
