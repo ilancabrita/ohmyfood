@@ -210,6 +210,7 @@ h4 {
   opacity: 0;
   transition-duration: 0.5s;
   z-index: 2;
+  color: violet;
 }
 .coeur__vide {
   z-index: 1;
