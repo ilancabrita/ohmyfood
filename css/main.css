@@ -95,7 +95,7 @@ i.fa-check-circle {
   color: #fff;
   height: 2rem;
   width: 2rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   position: relative;
 }
 
@@ -747,10 +747,7 @@ main {
   margin: 0rem 1rem;
 }
 .section-menu__items:hover .section-menu__items__item__sub-content {
-  animation: apparition 2s;
-  animation-timing-function: cubic-bezier(0.5, 1, 58, 0.34, 0.82);
-  animation-fill-mode: both;
-  transform: scale(0);
+  animation: slide 3s;
   margin-right: -1rem;
 }
 .section-menu__items:hover i.fa-check-circle {
@@ -789,6 +786,9 @@ main {
 @keyframes slide {
   0% {
     left: 0%;
+  }
+  50% {
+    left: 50%;
   }
   100% {
     left: 100%;
