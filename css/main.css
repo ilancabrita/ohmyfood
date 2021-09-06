@@ -747,7 +747,8 @@ main {
   margin: 0rem 1rem;
 }
 .section-menu__items:hover .section-menu__items__item__sub-content {
-  animation: slide 3s;
+  animation: slide;
+  transition-duration: 2s;
   margin-right: -1rem;
 }
 .section-menu__items:hover i.fa-check-circle {
