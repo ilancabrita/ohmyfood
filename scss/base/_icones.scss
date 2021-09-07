@@ -17,8 +17,9 @@
         position: absolute;
         opacity: 0;
         transition-duration: 0.5s;
-        z-index: 2; 
-        -webkit-text-fill-color: pink;
+        z-index: 2;
+        -webkit-text-fill-color: transparent;
+        background: -webkit-linear-gradient(40deg, $colour-primary 0%, $colour-secondary 100%);
     }
 
     &__vide
@@ -33,7 +34,6 @@
         .coeur__plein
         {
             opacity: 1;
-            color: $colour-secondary 100%;
         }
     } 
 }

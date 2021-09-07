@@ -210,7 +210,8 @@ h4 {
   opacity: 0;
   transition-duration: 0.5s;
   z-index: 2;
-  -webkit-text-fill-color: pink;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(40deg, #9356DC 0%, #FF79DA 100%);
 }
 .coeur__vide {
   z-index: 1;
@@ -220,7 +221,6 @@ h4 {
 }
 .coeur:hover .coeur__plein {
   opacity: 1;
-  color: #FF79DA 100%;
 }
 
 i.fa-heart {
@@ -262,13 +262,12 @@ i.fa-heart {
   flex-wrap: wrap;
   width: 100%;
   box-shadow: 0 1rem 2rem -0.5rem gray;
+  padding: 2rem;
   position: relative;
 }
 .header__logo {
   font-size: 7rem;
   color: #FF79DA;
-  margin-left: 10rem;
-  text-shadow: 0.55rem 0.55rem #fff;
   width: 15rem;
   height: 3rem;
   display: flex;
