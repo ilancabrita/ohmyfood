@@ -18,7 +18,7 @@
         opacity: 0;
         transition-duration: 0.5s;
         z-index: 2; 
-        color: violet
+        -webkit-text-fill-color: pink;
     }
 
     &__vide
