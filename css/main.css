@@ -364,9 +364,12 @@ header {
   box-shadow: 0 1rem 1rem -0.5rem gray;
 }
 .container__functionall {
-  margin-left: 3rem;
+  padding-left: 3rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: #fff;
 }
 .container__function {
   border: 0.2rem solid #fff;
