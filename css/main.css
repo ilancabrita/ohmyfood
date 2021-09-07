@@ -210,8 +210,6 @@ h4 {
   opacity: 0;
   transition-duration: 0.5s;
   z-index: 2;
-  -webkit-text-fill-color: transparent;
-  background: -webkit-linear-gradient(40deg, #9356DC 0%, #FF79DA 100%);
 }
 .coeur__vide {
   z-index: 1;
@@ -229,8 +227,6 @@ i.fa-heart {
   cursor: pointer;
   background: none;
   padding: 0.1rem;
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 0.2rem transparent;
 }
 
 .btn {

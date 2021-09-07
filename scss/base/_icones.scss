@@ -18,8 +18,8 @@
         opacity: 0;
         transition-duration: 0.5s;
         z-index: 2;
-        -webkit-text-fill-color: transparent;
-        background: -webkit-linear-gradient(40deg, $colour-primary 0%, $colour-secondary 100%);
+        
+        
     }
 
     &__vide
@@ -42,16 +42,12 @@ i.fa-heart
 {
     font-size: 2rem;
     align-self: center;
-
+  
     //Non stable
     cursor: pointer;
     background: none;
     padding: 0.1rem;
-    -webkit-background-clip: text;
-    -webkit-text-stroke: 0.2rem transparent;
-
     
-
 }
 
 //-webkit-background-clip: text; contenu enfant par rapport parent
@@ -59,4 +55,4 @@ i.fa-heart
 
 //background: -webkit-linear-gradient(40deg, $colour-primary 0%, $colour-secondary 100%);
 //-webkit-background-clip: text;
-//-webkit-text-fill-color: transparent;
+//-webkit-text-fill-color: full;
