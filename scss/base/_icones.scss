@@ -50,6 +50,69 @@ i.fa-heart
     
 }
 
+.coeur2
+{
+    height: 3rem;
+    width: 3rem;
+    border: transparent 0px solid;
+    padding: 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor: pointer;
+    font-size: 3rem;
+    transition-duration: 1s;
+    position: relative;
+
+    &__plein
+    {
+        position: absolute;
+        opacity: 0;
+        transition-duration: 0.5s;
+        z-index: 2;
+        
+        
+    }
+
+    &__vide
+    {
+        z-index: 1;
+        opacity: 1;
+        transition-duration: 0.5s;
+        color: $colour-black;
+    }
+    &:hover
+    {
+        .coeur__plein
+        {
+            opacity: 1;
+        }
+    } 
+}
+
+.fa-heart-home
+{
+    color: $colour-black;
+    position: absolute;
+    right: 2rem;
+    top: 85%;
+}
+
+i.fa-heart-home
+{
+    height: 3rem;
+    width: 3rem;
+    border: transparent 0px solid;
+    padding: 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor: pointer;
+    position: relative;
+    font-size: 3rem;
+}
+
+
 //-webkit-background-clip: text; contenu enfant par rapport parent
 //aria-hidden; caché un contenu
 
