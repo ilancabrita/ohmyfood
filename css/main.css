@@ -36,6 +36,20 @@ a {
   text-decoration: none;
 }
 
+.loading-spinner {
+  background: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+  animation: spin;
+  animation-duration: 5s;
+  font-size: 20rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: black;
+}
+
 .logo__header {
   justify-items: center;
   width: 15rem;
