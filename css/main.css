@@ -22,6 +22,7 @@
 .textreto {
   padding: 10px;
   font-size: 15px;
+  width: 80%;
 }
 .textreto__h4 {
   font-size: 17px;
@@ -211,21 +212,19 @@ i.fa-heart {
 
 .coeur2 {
   height: 3rem;
-  width: 3rem;
+  width: 20%;
   border: transparent 0px solid;
   padding: 0;
   display: flex;
+  color: black;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   font-size: 3rem;
   transition-duration: 1s;
-  position: absolute;
-  top: 80%;
-  left: 80%;
+  position: relative;
 }
 .coeur2__plein {
-  position: absolute;
   opacity: 0;
   transition-duration: 0.5s;
   z-index: 2;
@@ -425,6 +424,12 @@ header {
 .title {
   padding: 15px;
   padding-left: 20px;
+}
+
+.fiche-resto {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .form {
