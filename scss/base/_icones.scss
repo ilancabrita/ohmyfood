@@ -18,8 +18,8 @@
         opacity: 0;
         transition-duration: 0.5s;
         z-index: 2;
-        
-        
+        background: $colour-primary;
+        background: linear-gradient(170deg, $colour-secondary 0%, $colour-primary 100%);
     }
 
     &__vide

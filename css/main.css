@@ -204,6 +204,8 @@ h4 {
   opacity: 0;
   transition-duration: 0.5s;
   z-index: 2;
+  background: #9356DC;
+  background: linear-gradient(170deg, #FF79DA 0%, #9356DC 100%);
 }
 .coeur__vide {
   z-index: 1;
