@@ -18,8 +18,7 @@
         opacity: 0;
         transition-duration: 0.5s;
         z-index: 2;
-        background: $colour-primary;
-        background: linear-gradient(170deg, $colour-secondary 0%, $colour-primary 100%);
+        mix-blend-mode: lighten;
     }
 
     &__vide
@@ -45,9 +44,8 @@ i.fa-heart
   
     //Non stable
     cursor: pointer;
-    background: none;
+    //background: none;
     padding: 0.1rem;
-    
 }
 
 .coeur2
