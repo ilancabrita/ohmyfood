@@ -477,9 +477,16 @@ header {
   flex-direction: row;
   width: 100%;
 }
-.fiche-resto__btn {
-  height: 2rem;
-  width: 2rem;
+
+.carte2 {
+  padding: 1rem 2rem 0rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carte2__btn {
+  height: 6rem;
+  width: 20%;
   background-color: transparent;
   border: transparent 0px solid;
   padding: 0;
@@ -490,10 +497,10 @@ header {
   position: relative;
   background-color: black;
 }
-.fiche-resto__btn:hover::before {
+.carte2__btn:hover::before {
   opacity: 1;
 }
-.fiche-resto__btn::before {
+.carte2__btn::before {
   opacity: 0;
   transition: 0.5s;
   content: "";
@@ -504,7 +511,7 @@ header {
   width: 100%;
   background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
 }
-.fiche-resto__like {
+.carte2__like {
   transition-duration: 0.25s;
   background-color: #f6f6f6;
   position: absolute;
@@ -517,7 +524,7 @@ header {
   justify-content: center;
   mix-blend-mode: lighten;
 }
-.fiche-resto__btn:hover .carte__like--noBg {
+.carte2__btn:hover .carte__like--noBg {
   opacity: 0;
 }
 
