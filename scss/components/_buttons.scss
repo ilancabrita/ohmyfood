@@ -23,3 +23,27 @@
     }
 }
 
+.btn2
+{
+    margin: 2rem 25%;
+    border: none;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    color:$colour-white;
+    background: $colour-primary;
+    background: linear-gradient(170deg, $colour-secondary 0%, $colour-primary 100%);
+    cursor: pointer;
+    transition: 1s;
+    text-align: center;
+
+    &--w60
+    {
+        width: 60%;
+    }
+    &:hover
+    {
+        transform: translateY(-.1rem);
+        box-shadow: 0 1rem 2rem -0.5rem $colour-gray;
+        background: linear-gradient(170deg, lighten($colour-secondary, 5%) 0%, lighten($colour-primary, 5%) 100%);
+    }
+}

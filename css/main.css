@@ -318,6 +318,27 @@ i.fa-heart-home {
   background: linear-gradient(170deg, #ff93e1 0%, #a16be0 100%);
 }
 
+.btn2 {
+  margin: 2rem 25%;
+  border: none;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+  color: #fff;
+  background: #9356DC;
+  background: linear-gradient(170deg, #FF79DA 0%, #9356DC 100%);
+  cursor: pointer;
+  transition: 1s;
+  text-align: center;
+}
+.btn2--w60 {
+  width: 60%;
+}
+.btn2:hover {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 1rem 2rem -0.5rem gray;
+  background: linear-gradient(170deg, #ff93e1 0%, #a16be0 100%);
+}
+
 .header {
   background: #9356DC;
   height: 10rem;
@@ -963,7 +984,6 @@ hr {
   font-size: 2rem;
   width: 50%;
   display: block;
-  text-align: center;
   justify-content: center;
 }
 
