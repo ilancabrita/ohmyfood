@@ -959,6 +959,14 @@ hr {
   border-radius: 25px;
 }
 
+.commader {
+  font-size: 2rem;
+  width: 50%;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
 @keyframes slide {
   0% {
     left: 0%;
