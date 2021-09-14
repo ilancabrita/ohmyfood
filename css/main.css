@@ -353,10 +353,11 @@ i.fa-heart-home {
 .header__logo {
   font-size: 7rem;
   color: #FF79DA;
-  width: 15rem;
+  width: 50%;
   height: 3rem;
-  margin: 2rem;
-  margin-left: 11rem;
+  margin: 5rem;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   justify-content: center;
 }
@@ -520,6 +521,7 @@ header {
 }
 .carte2__btn:hover::before {
   opacity: 1;
+  z-index: 1;
 }
 .carte2__btn::before {
   opacity: 0;
@@ -796,6 +798,10 @@ body {
   width: 100%;
   margin: 0rem;
   padding: 0rem;
+  max-width: 460px;
+  min-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cta {
