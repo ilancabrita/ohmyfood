@@ -291,7 +291,7 @@ i.fa-heart-home {
   cursor: pointer;
   font-size: 3rem;
   color: black;
-  font-size: 2rem;
+  font-size: 4rem;
   align-self: center;
   cursor: pointer;
   padding: 0.1rem;
@@ -507,8 +507,8 @@ header {
   justify-content: space-between;
 }
 .carte2__btn {
-  height: 6rem;
-  width: 20%;
+  height: auto;
+  width: 40%;
   background-color: transparent;
   border: transparent 0px solid;
   padding: 0;
@@ -521,7 +521,6 @@ header {
 }
 .carte2__btn:hover::before {
   opacity: 1;
-  z-index: 1;
 }
 .carte2__btn::before {
   opacity: 0;
