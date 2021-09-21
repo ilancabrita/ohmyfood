@@ -51,6 +51,21 @@
         {
             background-color: $cloour-pink;
         }
+
+        &:hover .fa-mobile-alt
+        {
+          color: #9356DC;
+        }
+
+        &:hover .fa-list-ul
+        {
+          color: #9356DC;
+        }
+
+        &:hover .fa-store
+        {
+          color: #9356DC;
+        }
     }
 
     &__plate
