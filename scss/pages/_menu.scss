@@ -20,6 +20,7 @@ body
     margin-top: -4rem;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
+    padding: 1rem;
     background-color: $colour-gray-very-smart;
     z-index: 1;
     position: relative;
@@ -189,6 +190,7 @@ main
             display: flex;
             margin: 1rem 0rem;
             padding: 1rem;
+            padding-right: 0rem;
             overflow: hidden;
             cursor: pointer;
             width: 100%;
@@ -233,6 +235,12 @@ hr
     width: 50%;
     display: block;
     justify-content: center;
+}
+
+.footer-h5
+{
+    font-size: 15px;
+    font-weight: 400;
 }
 
 @keyframes slide
