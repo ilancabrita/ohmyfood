@@ -87,6 +87,23 @@
     }
 }
 
+@media (min-width: 426px) 
+{
+  .container
+  {
+    &__fiche
+    {
+      width: 45%;
+      margin-right: 0px;
+    }
+
+    &__function
+    {
+      width: 50%;
+    }
+  } 
+}
+
 .title
 {
     padding: 15px;

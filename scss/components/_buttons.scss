@@ -47,3 +47,16 @@
         background: linear-gradient(170deg, lighten($colour-secondary, 5%) 0%, lighten($colour-primary, 5%) 100%);
     }
 }
+
+@media (min-width: 426px) 
+{
+    .btn
+    {
+        width: 60%;
+    }
+
+    .btn2
+    {
+        width: 50%;
+    }
+}
