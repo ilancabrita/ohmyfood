@@ -53,10 +53,19 @@
     .btn
     {
         width: 60%;
+        font-size: 2rem;
     }
 
     .btn2
     {
         width: 50%;
+    }
+}
+
+@media (min-width: 1441px) 
+{
+    .btn
+    {
+        font-size: 4.5rem;
     }
 }

@@ -79,10 +79,14 @@
             flex-direction: column;
             justify-items: center;
         }
-    } 
+    }
+    h1
+    {
+        font-size: 45px;
+    }
 }
 
-@media (min-width: 1440px) 
+@media (min-width: 1441px) 
 {
     .header
     {
@@ -93,12 +97,36 @@
         {
             height: 15rem;
         }
+
+        &__header3
+        {
+            flex-direction: column;
+            justify-items: center;
+
+            &--h2
+            {
+                font-size: 4.5rem;
+            }
+
+            &--h3
+            {
+                font-size: 3.5rem;
+            }
+        }
     }
 }
 .fa-map-marker-alt
 {
     padding: 1rem;
     font-size: 15px;
+}
+
+@media (min-width: 426px) 
+{
+    .fa-map-marker-alt
+    {
+        font-size: 45px;
+    }
 }
 
 header

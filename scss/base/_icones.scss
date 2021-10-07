@@ -108,6 +108,15 @@ i.fa-heart-home
     padding: 0.1rem;
 }
 
+@media (min-width:1441) 
+{
+    
+    .fa-heart
+    {
+        font-size: 5rem;
+    }
+}
+
 
 //-webkit-background-clip: text; contenu enfant par rapport parent
 //aria-hidden; caché un contenu

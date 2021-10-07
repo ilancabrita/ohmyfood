@@ -93,15 +93,30 @@
   {
     &__fiche
     {
-      width: 45%;
+      width: 48%;
       margin-right: 0px;
     }
 
     &__function
     {
-      width: 50%;
+      width: 48%;
     }
   } 
+}
+
+@media (min-width: 1441px) 
+{
+  .container
+  {
+    &__function
+    {
+      width: 32%;
+    }
+    &__fiche
+    {
+      height: 500px;
+    }
+  }
 }
 
 .title

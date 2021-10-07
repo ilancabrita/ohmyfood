@@ -34,3 +34,14 @@
         object-fit: cover;  
     }
 }
+
+@media (min-width: 1441px) 
+{
+    .image
+    {
+        &__home
+        {
+            height: 30rem;
+        }
+    }
+}
