@@ -193,10 +193,10 @@ i.fa-check-circle {
 }
 @keyframes slide {
   from {
-    transform: width 0%;
+    transform: 0%;
   }
   to {
-    transform: width 20%;
+    transform: 20%;
   }
 }
 *,
@@ -348,7 +348,7 @@ i.fa-heart-home {
   padding: 0.1rem;
 }
 
-@media (min-width: 1441) {
+@media (min-width: 1441px) {
   .fa-heart {
     font-size: 5rem;
   }
@@ -472,7 +472,6 @@ i.fa-heart-home {
   .header__header3 {
     justify-items: center;
     width: 100%;
-    padding: auto;
     padding-left: 25%;
     padding-right: 25%;
   }
