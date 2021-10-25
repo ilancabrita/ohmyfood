@@ -24,6 +24,9 @@ body
     background-color: $colour-gray-very-smart;
     z-index: 1;
     position: relative;
+    width: 475px;
+    margin: auto;
+    justify-items: center;
 }
 
 h2
@@ -76,6 +79,7 @@ main
     justify-content: flex-end;
     align-items: flex-end;
     padding-left: 0.5rem;
+    margin-right: 15px;
 }
 
 .carte
