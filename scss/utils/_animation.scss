@@ -27,6 +27,10 @@ i.fa-check-circle
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 
+    &:hover
+    {
+        width: 20%;
+    }
 }
 
 @keyframes spin 
@@ -47,8 +51,8 @@ i.fa-check-circle
     to   { transform: translateX(0);}
 }
 
-@keyframes slide 
-{
-    from { transform: 0%;};
-    to { transform: 20%;};
-}
+//@keyframes slide 
+//{
+//    from { transform: 0%;};
+//    to { transform: 20%;};
+//}
